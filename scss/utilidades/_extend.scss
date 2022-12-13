@@ -1,0 +1,21 @@
+%mainTitulo {
+    background-color: $color-fondo;
+    height: 100px;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.main-titulo {
+    @extend %mainTitulo;
+}
+
+%footer-tituloh2 {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.footer-tituloh2{
+    @extend %footer-tituloh2
+}
